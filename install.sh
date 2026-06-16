@@ -26,10 +26,14 @@ if ! command -v docker &> /dev/null; then
 fi
 
 # Check Docker Compose
-if ! command -v docker-compose &> /dev/null && ! docker compose version &> /dev/null; then
-    echo "❌ Docker Compose is not installed"
-    echo "Please install Docker Compose: https://docs.docker.com/compose/install/"
-    exit 1
+COMPOSE_CMD="docker compose"
+if ! $COMPOSE_CMD version &> /dev/null; then
+    COMPOSE_CMD="docker-compose"
+    if ! command -v docker-compose &> /dev/null; then
+        echo "❌ Docker Compose is not installed"
+        echo "Please install Docker Compose: https://docs.docker.com/compose/install/"
+        exit 1
+    fi
 fi
 
 echo "✓ Docker found"
@@ -39,7 +43,14 @@ echo ""
 # Create .env if not exists
 if [ ! -f .env ]; then
     echo "📝 Creating .env file..."
-    cp .env.example .env
+    if [ -f .env.example ]; then
+        cp .env.example .env
+    elif [ -f .env.exemple ]; then
+        cp .env.exemple .env
+    else
+        echo "❌ No .env template found"
+        exit 1
+    fi
     
     # Generate random secrets
     JWT_SECRET=$(openssl rand -base64 32)
@@ -61,21 +72,21 @@ echo ""
 
 # Pull images
 echo "📦 Pulling Docker images..."
-docker-compose pull
+$COMPOSE_CMD pull
 
 echo "✓ Images pulled"
 echo ""
 
 # Build containers
 echo "🔨 Building Andaflare..."
-docker-compose build
+$COMPOSE_CMD build
 
 echo "✓ Build complete"
 echo ""
 
 # Start services
 echo "🚀 Starting Andaflare..."
-docker-compose up -d
+$COMPOSE_CMD up -d
 
 echo ""
 echo "✅ Installation complete!"
