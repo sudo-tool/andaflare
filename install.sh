@@ -53,8 +53,9 @@ if [ ! -f .env ]; then
     fi
     
     # Generate random secrets
-    JWT_SECRET=$(openssl rand -base64 32)
-    sed -i "s/your_jwt_secret_here/$JWT_SECRET/g" .env
+    JWT_SECRET=$(openssl rand -hex 32)
+    # Use | as delimiter instead of / to avoid issues with base64 characters
+    sed -i "s|your_jwt_secret_here|$JWT_SECRET|g" .env
     
     echo "✓ .env file created"
     echo ""
