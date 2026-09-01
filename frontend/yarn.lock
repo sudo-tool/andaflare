@@ -306,31 +306,31 @@
     "@formatjs/cli-native-linux-x64" "1.1.1"
     "@formatjs/cli-native-win32-x64" "1.1.2"
 
-"@formatjs/fast-memoize@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/@formatjs/fast-memoize/-/fast-memoize-3.1.5.tgz#bdfe0b884cdecc25100534086f36a0b30bd15b3b"
-  integrity sha512-KLi3fan6WnCHmigd9pmEEN8Hid0v4wiFBW576M/d07KMWYecf1CvyMI3n34vCmHT4AoVqG2n702kiHbXjzZX2A==
+"@formatjs/fast-memoize@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@formatjs/fast-memoize/-/fast-memoize-3.1.7.tgz#5f79b3756e4bcb5faee47b3a2f01216e1212c9e4"
+  integrity sha512-zXfhLpvA6T7+efdt9JLbBwZ00tT7NsBMDVnDu8rpHeNNv8KfRZAMo2gkG0k9lK/Nzc//3kJ9pImsfuJxk3KhUA==
 
-"@formatjs/icu-messageformat-parser@3.5.10":
-  version "3.5.10"
-  resolved "https://registry.yarnpkg.com/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-3.5.10.tgz#0ced2d6e8009eed57c6f0e7b4cc51dfea63b9bff"
-  integrity sha512-XeJihYLy1lCe19xfK1KWKG/betBOK2rB0luL8lSkjfvJj0zP+LTJvkC+RKd0jsFI8mWxN71LrarHSrEXE8xxOQ==
+"@formatjs/icu-messageformat-parser@3.5.17":
+  version "3.5.17"
+  resolved "https://registry.yarnpkg.com/@formatjs/icu-messageformat-parser/-/icu-messageformat-parser-3.5.17.tgz#7ac90ff6dde99468cd0b4a3f55344ccf8ae2ed87"
+  integrity sha512-cN9jhVqT7u0K9tix43fhjoUwL0nazyW6zsNIXs2QdPADr+nurPfYyssUiMqcSCGlPcCiqnYVxgSn7zBSuI+5Bg==
   dependencies:
-    "@formatjs/icu-skeleton-parser" "2.1.9"
+    "@formatjs/icu-skeleton-parser" "2.1.11"
 
-"@formatjs/icu-skeleton-parser@2.1.9":
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-2.1.9.tgz#746edae664b2ef148df1301845d1bb40000bbebb"
-  integrity sha512-rsxswgHMfU1zUgB2byc08fesf83wLGjFnzLCEtuf00mx2doiqc6pYrf67raI37XqdRcGUviQepk2UKGqpng74Q==
+"@formatjs/icu-skeleton-parser@2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@formatjs/icu-skeleton-parser/-/icu-skeleton-parser-2.1.11.tgz#09226edf55a18e3fea80304d2cc95aaeb0095436"
+  integrity sha512-j8cUmOJzVgkHuS0QiQ6ga76UIoLOFSAMWhs7aZJztH3aAdCOAE6vpC8KVvFB4cU10ON0y2/5oOVmPJ43s2lTwA==
 
-"@formatjs/intl@4.1.12":
-  version "4.1.12"
-  resolved "https://registry.yarnpkg.com/@formatjs/intl/-/intl-4.1.12.tgz#a29521f9bba79df1690c430f3d2cee8817778674"
-  integrity sha512-r288ut+p+CUQZSg+0gAT+D0i6xgrnoxE0B4HTbPY2zei/AtYmFhlu87BKjgCf1CweH4pZIbr152JFjxO8jVb1A==
+"@formatjs/intl@4.1.19":
+  version "4.1.19"
+  resolved "https://registry.yarnpkg.com/@formatjs/intl/-/intl-4.1.19.tgz#29463bc50ebc159f8c4309d6bd739fc5c95e9aa4"
+  integrity sha512-bZMROATl+rzfL8wsDZ53i8XWHx5e6rVr8QlGT5GDvHImEUro4WE9pxUd2dobzmI3CtD+zkt/wkEdqcb+3CK8Fg==
   dependencies:
-    "@formatjs/fast-memoize" "3.1.5"
-    "@formatjs/icu-messageformat-parser" "3.5.10"
-    intl-messageformat "11.2.7"
+    "@formatjs/fast-memoize" "3.1.7"
+    "@formatjs/icu-messageformat-parser" "3.5.17"
+    intl-messageformat "11.2.14"
 
 "@jridgewell/gen-mapping@^0.3.12":
   version "0.3.13"
@@ -801,10 +801,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.15.tgz#e6e5a86d602beaca71ce5163fadf5f95d70931c7"
   integrity sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==
 
-"@types/react-dom@^19.2.3":
-  version "19.2.3"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.2.3.tgz#c1e305d15a52a3e508d54dca770d202cb63abf2c"
-  integrity sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==
+"@types/react-dom@^19.2.5":
+  version "19.2.5"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-19.2.5.tgz#d4ecf8d704cab59901d3fbb0975b6f855306595f"
+  integrity sha512-fMPwH9v7r/pp43yUd2/Mbiex5KouJwwR3dzHkhLREUC6764VyDsqxhAxv6OFEYR1RhjOyD1naqba8ECDBe7ZQg==
 
 "@types/react-table@^7.7.20":
   version "7.7.20"
@@ -818,10 +818,10 @@
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.12.tgz#b5d76568485b02a307238270bfe96cb51ee2a044"
   integrity sha512-8TV6R3h2j7a91c+1DXdJi3Syo69zzIZbz7Lg5tORM5LEJG7X/E6a1V3drRyBRZq7/utz7A+c4OgYLiLcYGHG6w==
 
-"@types/react@*", "@types/react@>=16.9.11", "@types/react@^19.2.16":
-  version "19.2.16"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.16.tgz#9868b153fd9e34e0117afcd5d7e372b8179337e1"
-  integrity sha512-esJiCAnl0kfpNdE69f3So4WJUXy95dLZydX0KwK46riIHDzHM7O9Vtf9xCHW0PXIqvgqNrswl522kA/5yx+F4w==
+"@types/react@*", "@types/react@>=16.9.11", "@types/react@^19.2.18":
+  version "19.2.18"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.2.18.tgz#eb0b6a1fb635d1a9692d5f84a3495bd8ad153707"
+  integrity sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w==
   dependencies:
     csstype "^3.2.2"
 
@@ -1075,10 +1075,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-country-flag-icons@^1.6.17:
-  version "1.6.17"
-  resolved "https://registry.yarnpkg.com/country-flag-icons/-/country-flag-icons-1.6.17.tgz#875cf35eb2a0d7fcb0f07166fed9fc65863e03f8"
-  integrity sha512-Nmik0289ZVZSI3c7mJR/amg6DyY7Z59b0sTFSKayeX72mHfPzCPJygwJs2pYgQULzuAyWeCUgwAJ+Dq8OR+JFw==
+country-flag-icons@^1.6.20:
+  version "1.6.20"
+  resolved "https://registry.yarnpkg.com/country-flag-icons/-/country-flag-icons-1.6.20.tgz#aa6f36104568993f9cd43e7da283f9b7d0a802cc"
+  integrity sha512-py8JiEKzjhYw6HPJ0L7SxLgCYim36UPRTZX43/kqGueUCZLSvnrqAiwW8HtQibur7mdkFQUkjOgdK+o/9FBtaw==
 
 css.escape@^1.5.1:
   version "1.5.1"
@@ -1448,13 +1448,13 @@ inline-style-parser@0.2.7:
   resolved "https://registry.yarnpkg.com/inline-style-parser/-/inline-style-parser-0.2.7.tgz#b1fc68bfc0313b8685745e4464e37f9376b9c909"
   integrity sha512-Nb2ctOyNR8DqQoR0OwRG95uNWIC0C1lCgf5Naz5H6Ji72KZ8OcFZLz2P5sNgwlyoJ8Yif11oMuYs5pBQa86csA==
 
-intl-messageformat@11.2.7:
-  version "11.2.7"
-  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-11.2.7.tgz#1d922a7df8964ec496c56f62928ef2134674bdae"
-  integrity sha512-+q6Ktg119nULZEpZ8YTuGOst9MyEzFtjD63FTGBlN1mLz0Z/MOUYDIvnpVKwq17eezIEh+cfJIebfJoCetpiNw==
+intl-messageformat@11.2.14:
+  version "11.2.14"
+  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-11.2.14.tgz#610e4a21511d85dc06634424409d60bb1e9e441f"
+  integrity sha512-9f2VD1HFuxUvMw0RxsaP8WmMns6JRTnsNB/zghTFrp11ZktiXWwVDeZBPQchBKEmo+Gx/ZhxI7Qht7YglFD4PA==
   dependencies:
-    "@formatjs/fast-memoize" "3.1.5"
-    "@formatjs/icu-messageformat-parser" "3.5.10"
+    "@formatjs/fast-memoize" "3.1.7"
+    "@formatjs/icu-messageformat-parser" "3.5.17"
 
 invariant@^2.2.4:
   version "2.2.4"
@@ -2173,10 +2173,10 @@ react-bootstrap@^2.10.10:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
-react-dom@^19.2.7:
-  version "19.2.7"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.7.tgz#0450dc9ae9ddbff76ef196401cd8b8c7fb466ccc"
-  integrity sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==
+react-dom@^19.2.8:
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.8.tgz#3b46b9eeda877cdff2cf13d2770fff4ae36c2ec2"
+  integrity sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==
   dependencies:
     scheduler "^0.27.0"
 
@@ -2185,14 +2185,14 @@ react-fast-compare@^2.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
-react-intl@^10.1.11:
-  version "10.1.11"
-  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-10.1.11.tgz#1b08edb40082eeb4f8b783cecda33c84ab0da80f"
-  integrity sha512-9VCaWKumbrP91QvS50IYRlbZsD4KdSLwcfEeF9CQLmnqK9qCvFCfyof694I9lqHJL2/TUxBwLCA+whjF129oAg==
+react-intl@^10.1.24:
+  version "10.1.24"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-10.1.24.tgz#f96ead9fde5308b2fb8f529f5c401c9f5ef8e849"
+  integrity sha512-8hiXRnnmOMEPvE5xb1T1Ce1AsmuSWX2voosCsmiyOEGEq83d1mbHy2M1DeoGKt4yF5oPPkzp+aUwSOtf+NYKPA==
   dependencies:
-    "@formatjs/icu-messageformat-parser" "3.5.10"
-    "@formatjs/intl" "4.1.12"
-    intl-messageformat "11.2.7"
+    "@formatjs/icu-messageformat-parser" "3.5.17"
+    "@formatjs/intl" "4.1.19"
+    intl-messageformat "11.2.14"
 
 react-is@^16.13.1, react-is@^16.3.2, react-is@^16.7.0:
   version "16.13.1"
@@ -2273,10 +2273,10 @@ react-transition-group@^4.3.0, react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@^19.2.7:
-  version "19.2.7"
-  resolved "https://registry.yarnpkg.com/react/-/react-19.2.7.tgz#1f47a1bfc06f8ec885752c6f4af14369a9f8260b"
-  integrity sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==
+react@^19.2.8:
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.8.tgz#a80663dbb58d69c6fe3fd291d3cb324e8a7dff2d"
+  integrity sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==
 
 readdirp@^5.0.0:
   version "5.0.0"
